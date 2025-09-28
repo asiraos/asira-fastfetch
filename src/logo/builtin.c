@@ -11,15 +11,16 @@ const FFlogo ffLogoUnknown = {
 };
 
 static const FFlogo A[] = {
+    
     // AsiraOS
     {
         .names = {"AsiraOS"},
         .lines = FASTFETCH_DATATEXT_LOGO_ASIRAOS,
         .colors = {
+            FF_COLOR_FG_RED, 
             FF_COLOR_FG_WHITE,
-            FF_COLOR_FG_RED,
         },
-        .colorKeys = FF_COLOR_FG_DEFAULT,
+        .colorKeys = FF_COLOR_FG_RED,
         .colorTitle = FF_COLOR_FG_RED,
     },
     // Adélie
